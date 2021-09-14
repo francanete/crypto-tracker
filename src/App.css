@@ -1,14 +1,25 @@
 /* Global styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: rgb(43, 43, 43);
+}
+
+table {
+  text-align: center;
+}
+
+th,
+td {
+  width: 150px;
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 .coin-app {
@@ -37,7 +48,7 @@
   height: 50px;
   border-radius: 4px;
   border: none;
-  border: .1rem solid rgb(120, 120, 120);
+  border: 0.1rem solid rgb(120, 120, 120);
   font-size: 1rem;
 
   color: #505050;
@@ -46,6 +57,10 @@
 
 .coin-input::placeholder {
   color: #292929;
+}
+
+.btn {
+  margin-top: 20px;
 }
 
 .update-button {
@@ -63,18 +78,18 @@
     -225deg,
     #60abed 0%,
     #568bda 48%,
-    #4d64e6 100%)
+    #4d64e6 100%
+  );
 }
 
-.update-button:hover{
+.update-button:hover {
   pointer-events: pointer;
   box-shadow: 1px 2px 3px 2px rgba(91, 91, 91, 0.44);
 }
 
-
 /* Coins style */
 
-.coin-container {
+/* .coin-container {
   display: flex;
   justify-content: center;
 }
@@ -112,7 +127,7 @@
   text-transform: uppercase;
 }
 
-.coin-header{
+.coin-header {
   display: flex;
   text-align: right;
   justify-content: space-between;
@@ -140,7 +155,7 @@
 
 .coin-percent {
   width: 100px;
-}
+} */
 
 .red {
   color: #f00606;
@@ -150,12 +165,9 @@
   color: #11d811;
 }
 
-
 .footer-note {
   margin: 60px;
 }
 
 @media only screen and (max-width: 600px) {
-  
-
 }
